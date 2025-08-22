@@ -1,0 +1,29 @@
+-------Plataforma de gestión de eventos deportivos-------
+Un sistema digital administra torneos de diferentes disciplinas (fútbol, baloncesto, voleibol, etc.). Cada torneo tiene un identificador, nombre, fecha de inicio, 
+fecha de finalización y ciudad sede. Los equipos participantes se registran con un código único, nombre oficial, año de fundación y entrenador principal. 
+Durante el torneo, se registran partidos con un código de partido, fecha, equipo local, equipo visitante, 
+marcador final y estadio donde se jugó. Los estadios tienen su propio identificador, nombre, capacidad y ubicación.
+ANALISIS
+
+Entidad: Torneo
+Atributos:
+id_torneo (PK)
+nombre = VARCHAR(100)
+fecha_inicio
+fecha_fin
+ciudad_sede = VARCHAR(100)
+
+Entidad: Equipo
+Atributos:
+id_equipo (PK)
+nombre_oficial = VARCHAR(100)
+anio_fundacion = INT
+entrenador_principal = VARCHAR(100)
+id_torneo (FK)
+
+Entidad: Campo
+Atributos:
+id_campo (PK)
+nombre = VARCHAR(100)
+capacidad = INT
+ubicacion = VARCHAR(100)
