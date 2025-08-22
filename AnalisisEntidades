@@ -21,9 +21,9 @@ anio_fundacion = INT
 entrenador_principal = VARCHAR(100)
 id_torneo (FK)
 
-Entidad: Campo
+Entidad: Estadios
 Atributos:
-id_campo (PK)
+id_estadio (PK)
 nombre = VARCHAR(100)
 capacidad = INT
 ubicacion = VARCHAR(100)
