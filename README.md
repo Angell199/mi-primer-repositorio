@@ -1,4 +1,4 @@
-------------------------------------------------EduTrack------------------------------------------------------- 
+------------------------------------------------EduTrack--------------------------------------------------------------------------- 
 es una solución integral diseñada para optimizar la labor docente y administrativa en instituciones educativas.
 El sistema centraliza la creación de rúbricas, la gestión de notas y el seguimiento del progreso estudiantil, 
 eliminando la fragmentación de datos y el trabajo manual repetitivo.
